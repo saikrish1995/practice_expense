@@ -9,10 +9,10 @@ LOG_FILE="$LOGS_FOLDER/$SCRIPT_NAME-$TIME_STAMP.log"
 
 mkdir -p $LOGS_FOLDER
 
-$R="\e[31m"
-$G="\e[32m"
-$Y="\e[33m"
-$N="\e[0m"
+R="\e[31m"
+G="\e[32m"
+Y="\e[33m"
+N="\e[0m"
 
 USERID=$(id -u)
 if [ $USERID -ne 0 ]
